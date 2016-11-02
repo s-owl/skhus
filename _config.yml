@@ -16,13 +16,18 @@
 title: Foressst 블로그
 email: we.sss.you@gmail.com
 description: 성공회대학교 종합정보시스템 모바일 앱 Foressst 소식 블로그
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/foressst" # the subpath of your site, e.g. /blog
+url: "https://skhu-sss.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
-github_username:  
+github_username:
+
+paginate: 10
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 theme: minima
 gems:
   - jekyll-feed
