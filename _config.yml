@@ -11,7 +11,7 @@ author:
   name:             SKHU Sensible Security
   facebook:         your-id
   twitter:          your-id
-  github:           your-id
+  github:           skhu-sss
   linkedin:         your-id
   medium:           your-id
   tumblr:           your-id
@@ -53,7 +53,7 @@ nav:
   - name:           "Tags"
     url:            "/tags"
   - name:           "Github"
-    url:            "https://github.com/AWEEKJ/Kiko-plus"
+    url:            "https://github.com/skhu-sss/foressst"
 
 
 
