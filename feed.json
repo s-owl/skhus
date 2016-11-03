@@ -5,11 +5,7 @@ layout: null
   {% assign feed = site.posts limit:20 %}
 
   {% for post in feed %}
-  {
-    "title" : "{{ post.title }}",
-    "date" : "{{ post.date | date: "%Y.%m.%d" }}",
-    "content" : "{{ post.content }}"
-  }
+  { "title" : "{{ post.title }}", "date" : "{{ post.date | date: "%Y.%m.%d" }}", "content" : "{{ post.content }}"}
   {% if post != feed.last %}
   ,
   {% endif %}
