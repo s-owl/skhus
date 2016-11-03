@@ -8,7 +8,7 @@ layout: null
   {
   "title" : "{{ post.title }}",
   "date" : "{{ post.date | date: "%Y.%m.%d" }}",
-  "content" : "{{ post.content | strip_html }}"
+  "content" : "{{ post.content | strip_html | escape }}"
   }
   {% if post != feed.last %}
   ,
