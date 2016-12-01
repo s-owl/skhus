@@ -31,6 +31,10 @@
   td>a:hover{
     color: green;
   }
+  p.legal{
+    color: grey;
+    font-size: small;
+  }
   </style>
 </head>
 <body>
@@ -68,7 +72,20 @@
     </table>
 
 
-    <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fskhuforessst&width=134&layout=button_count&action=like&size=small&show_faces=true&share=true&height=46&appId=465942550220840" width="134" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+<div class="fb-like" data-href="https://www.facebook.com/skhuforessst/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+    <p class="legal">
+      이 앱은 성공회대학교 공식 인증 앱이 아니며, 사용 중 발생하는 모든 책임은 사용자 본인에게 있습니다.
+    </p>
     </div>
+
+
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.8&appId=465942550220840";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </body>
 </html>
