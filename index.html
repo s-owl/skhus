@@ -1,60 +1,74 @@
----
-layout: default
----
-{% include header.html %}
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Foressst</title>
+<script src="https://use.fontawesome.com/7986201c33.js"></script>
+ <style>
+  table{
+    text-align: center;
+  }
+  td{
+    border-radius: 5px;
+    border: thin solid green;
+    background: green;
+    padding: 4px;
+  }
+  td:hover{
+    border-radius: 5px;
+    border: thin solid green;
+    background: white;
+    padding: 4px;
+  }
+  td:active{
+    border-radius: 5px;
+    border: thin solid white;
+    background: green;
+    padding: 4px;
+  }
+  td>a{
+    color: white;
+  }
+  td>a:hover{
+    color: green;
+  }
+  </style>
+</head>
+<body>
+  <div align="center">
+    <img src="icon.png" />
+    <h1>Foressst</h1>
+    <p>
+      성공회대학교 종합정보시스템 모바일 앱
+    </p>
+    <table>
+      <tbody>
+        <tr>
+          <td>
+            <a href="https://github.com/skhu-sss/foressst"><i class="fa fa-android" aria-hidden="true"></i>
+        Android 용 다운로드</a><br />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://github.com/skhu-sss/foressst"><i class="fa fa-apple" aria-hidden="true"></i>
+        iOS 용 다운로드</a><br />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://github.com/skhu-sss/foressst">기능 제안 또는 버그 보고</a><br />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://skhu-sss.github.io/foressst/blog">블로그 방문</a><br />
+          </td>
+        </tr>
+      </tbody>
+    </table>
 
-<div class="list">
-{% if site.posts.size == 0 %}
-  <h2>No post found</h2>
-{% else %}
-<!-- This loops through the paginated posts -->
-{% for post in paginator.posts %}
-  <div class="list-post">
-    {% if post.link %}
-    <a href="{{ post.link }}">
-    {% else %}
-    <a href="{{ post.url | prepend: site.baseurl }}">
-    {% endif %}  
-      <div class="list-post-date">
-        <time>{{ post.date | date_to_string }}</time>
-      </div>
-      <div class="list-post-title">
-        {{ post.title }}
-      </div>
-      {% if post.description %}
-      <div class="list-post-desc">
-        {{ post.description }}
-      </div>
-      {% endif %}
-    </a>
 
-
-  </div>
-{% endfor %}
-  <!-- Pagination links -->
-  <div class="list-pagination">
-    <span class="list-pagination-previous">
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous">
-          <i class="fa fa-angle-left" aria-hidden="true"></i>
-          Previous
-        </a>
-      {% else %}
-
-      {% endif %}
-    </span>
-
-    <span class="list-pagination-next">
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">
-          Next
-          <i class="fa fa-angle-right" aria-hidden="true"></i>
-        </a>
-      {% else %}
-
-      {% endif %}
-    </span>
-
-  </div>
-{% endif %}
-</div>
+    <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fskhuforessst&width=134&layout=button_count&action=like&size=small&show_faces=true&share=true&height=46&appId=465942550220840" width="134" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+    </div>
+</body>
+</html>
