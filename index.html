@@ -15,7 +15,7 @@
             <div class="hero-body">
                 <div class="container has-text-centered">
                     <div class="tile is-ancestor">
-                        
+
                         <div class="tile">
                             <div class="content" style="margin-left: auto;
                                 margin-right: auto; margin-bottom: 32px;">
@@ -41,7 +41,7 @@
                                         </span>
                                         <span>Apple App Store</span>
                                     </a></div>
-                                    <div class="buttons is-centered">
+                                <div class="buttons is-centered">
 
                                     <a class="button is-success is-outlined"
                                         href="https://github.com/s-owl/skhus">
@@ -57,7 +57,7 @@
                                         </span>
                                         <span>출시 기록</span>
                                     </a></div>
-                                    <div class="buttons is-centered">
+                                <div class="buttons is-centered">
                                     <a class="button is-success is-outlined"
                                         href="https://www.facebook.com/SKHUsMobileApp/">
                                         <span class="icon is-small">
@@ -91,5 +91,21 @@
                 </div>
             </div>
         </section>
+        <!-- Load Facebook SDK for JavaScript -->
+        <div id="fb-root"></div>
+        <script>
+            (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/ko_KR/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+            fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+            <!-- Your customer chat code -->
+        <div class="fb-customerchat"
+            attribution=setup_tool
+            page_id="272333690260442"
+            theme_color="#67b868">
+        </div>
     </body>
 </html>
