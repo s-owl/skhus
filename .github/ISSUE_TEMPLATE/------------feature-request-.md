@@ -4,14 +4,14 @@ about: 앱에 추가되었으면 하는 기능이나 개선되었으면 하는 �
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**요청사항이 사용중 발생하는 문제와 연관이 있나요? 있다면 설명해 주세요.**  
+오류나 버그는 아니지만, 사용중 기능이 부족하거나 기능이 없어 겪는 문제 등을 설명해 주세요. 어떤 환경에서 불편함을 겪으시는지도 설명해주세요.
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+**해결방안에 대해 설명해 주세요.**  
+추가 되었으면 하거나 개선되었으면 하는 부분이 어떤 방향으로 개선 되었으면 좋겠는지 자세히 설명해주세요.
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+**다른 대안이 있나요?**
+위 해결방안에 대한 대안이나, 추가적인 해결 방법이 생각나신다면 설명해주세요.
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+**추가 정보**
+스크린샷, 영상, 참고자료 등 도움이 될 만한 추가 정보릉 제공해 주세요.
